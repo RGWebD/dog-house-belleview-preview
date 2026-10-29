@@ -1,4 +1,4 @@
-:root{--y:#F7D417;--r:#E21B1B;--b:#2A9BD6;--bd:#1C78AC;--k:#111;--w:#fff;--cream:#FFF8DC;--sh:5px 5px 0 var(--k)}
+:root{--y:#F2C14E;--r:#5C2A86;--b:#3C96D0;--bd:#1E6A9A;--k:#1A1224;--w:#fff;--cream:#F6F1FA;--plum:#5C2A86;--lilac:#EFE4F8;--sh:5px 5px 0 var(--k)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:Nunito,system-ui,sans-serif;color:var(--k);background:var(--cream);font-size:17px;line-height:1.6}
 img{max-width:100%;display:block}a{color:var(--bd)}
@@ -87,3 +87,19 @@ h1,h2,h3,h4{font-family:"Luckiest Guy",Impact,sans-serif;font-weight:400;letter-
 .links{display:none;position:absolute;left:0;right:0;top:100%;background:var(--y);border-bottom:4px solid var(--k);flex-direction:column;padding:12px}.nt:checked~.links{display:flex}
 .fab{display:grid;place-items:center;position:fixed;right:16px;bottom:16px;width:60px;height:60px;border-radius:50%;background:var(--r);border:3px solid var(--k);box-shadow:4px 4px 0 var(--k);font-size:26px;text-decoration:none;z-index:60}}
 @media(max-width:560px){.grid4,.fgrid{grid-template-columns:1fr}.hero h1{font-size:40px}.sec{padding:48px 0}.plank::before,.plank::after{display:none}.striphead .h2{font-size:26px}.btn.big{font-size:18px}.brand img{width:76px}.topbar{font-size:12px;gap:10px}}
+
+/* palette: logo plum + house blue. gold stays on wordmarks and price chips only. */
+.nav{background:var(--plum)}
+.links a{color:#fff}
+.links a:hover,.links a[aria-current]{border-color:#fff;background:rgba(255,255,255,.16);color:#fff}
+.hero{background:radial-gradient(circle at 78% 28%,#9A57D6 0,var(--plum) 48%,#2E7EB8 100%)}
+.sec.yellow{background:var(--lilac);color:var(--k)}
+.phero.yellow{background:var(--b);color:#fff}
+.phero.yellow h1{color:var(--y)}
+.tag{background:var(--y);color:var(--k)}
+.note{background:var(--lilac)}
+.btn-red{background:var(--b)}
+.fab{background:var(--b)}
+.topbar{background:#140E1C}
+.ptable th .ext{font-weight:800;font-size:13px;letter-spacing:0;color:var(--plum)}
+@media(max-width:960px){.links{background:var(--plum)}}
