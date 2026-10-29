@@ -88,18 +88,18 @@ h1,h2,h3,h4{font-family:"Luckiest Guy",Impact,sans-serif;font-weight:400;letter-
 .fab{display:grid;place-items:center;position:fixed;right:16px;bottom:16px;width:60px;height:60px;border-radius:50%;background:var(--r);border:3px solid var(--k);box-shadow:4px 4px 0 var(--k);font-size:26px;text-decoration:none;z-index:60}}
 @media(max-width:560px){.grid4,.fgrid{grid-template-columns:1fr}.hero h1{font-size:40px}.sec{padding:48px 0}.plank::before,.plank::after{display:none}.striphead .h2{font-size:26px}.btn.big{font-size:18px}.brand img{width:76px}.topbar{font-size:12px;gap:10px}}
 
-/* palette: logo plum + house blue. gold stays on wordmarks and price chips only. */
-.nav{background:var(--plum)}
+/* open on house blue; plum stays the accent */
+.nav{background:var(--b)}
 .links a{color:#fff}
 .links a:hover,.links a[aria-current]{border-color:#fff;background:rgba(255,255,255,.16);color:#fff}
-.hero{background:radial-gradient(circle at 78% 28%,#9A57D6 0,var(--plum) 48%,#2E7EB8 100%)}
+.hero{background:radial-gradient(circle at 78% 28%,#8fd4f5 0,var(--b) 52%,var(--bd) 100%)}
 .sec.yellow{background:var(--lilac);color:var(--k)}
-.phero.yellow{background:var(--b);color:#fff}
-.phero.yellow h1{color:var(--y)}
+.phero.yellow,.phero.red{background:var(--b);color:#fff}
+.phero.yellow h1,.phero.red h1{color:var(--y)}
 .tag{background:var(--y);color:var(--k)}
 .note{background:var(--lilac)}
-.btn-red{background:var(--b)}
+.btn-red{background:var(--plum)}
 .fab{background:var(--b)}
 .topbar{background:#140E1C}
 .ptable th .ext{font-weight:800;font-size:13px;letter-spacing:0;color:var(--plum)}
-@media(max-width:960px){.links{background:var(--plum)}}
+@media(max-width:960px){.links{background:var(--b)}}
